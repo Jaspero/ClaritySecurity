@@ -9,5 +9,5 @@ export const STATIC_CONFIG: {
   url: string;
 } = {
   cloudRegion: 'us-central1',
-  url: 'https://clarity-ssu.web.app/'
+  url: 'https://clarityssu.com/'
 };

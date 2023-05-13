@@ -3,6 +3,7 @@ import * as cors from 'cors';
 export const CORS = cors({
   origin: [
     'https://clarity-ssu.web.app',
+    'https://clarityssu.com'
     ...process.env.NODE_ENV !== 'production' ? ['http://localhost:4200'] : []
   ],
   optionsSuccessStatus: 200,

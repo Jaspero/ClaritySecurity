@@ -4,11 +4,11 @@ const admin = require('firebase-admin');
 const renderDocument = require('./src/render-document');
 const renderMeta = require('./src/render-meta');
 const siteMap = require('./src/site-map');
-const URL = 'https://clarity-ssu.web.app/';
+const URL = 'https://clarityssu.com/';
 const BASE_PATH = join(__dirname, '..', 'public/web');
-const BASE_TITLE = 'JMS';
+const BASE_TITLE = 'Clarity SSU';
 const DELIMITER = '-';
-const BASE_URL = 'https://firebasestorage.googleapis.com/v0/b/jaspero-automated-tests.appspot.com/o/';
+const BASE_URL = 'https://firebasestorage.googleapis.com/v0/b/clarity-ssu.appspot.com/o/';
 const PAGES = [
   {
     url: '',
